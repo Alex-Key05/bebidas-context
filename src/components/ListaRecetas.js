@@ -10,7 +10,7 @@ const ListaRecetas = () => {
 
   return (
     <>
-        <h1>Listado</h1>
+        <h1 className="mt-3 text-dark">Listado</h1>
         <div className="row mt-5">
         {recetas.map((receta) => (
               <Receta
